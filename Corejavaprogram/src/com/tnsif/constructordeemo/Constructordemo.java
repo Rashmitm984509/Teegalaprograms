@@ -17,7 +17,7 @@ System.out.println("enter the customer id");
 		
 System.out.println("enter the customer addresss");
 		
-		String adress=sc.next();
+		String adress=sc.nextLine();
 		
 		Customer c=new Customer();
 		
@@ -27,7 +27,7 @@ System.out.println("enter the customer addresss");
 		
 		System.out.println(c);
 		
-		boolean output=d instanceof Customer;
+		boolean output=c instanceof Customer;
 		System.out.println(output);
 	}
 
