@@ -2,7 +2,7 @@ package com.tnsif.scannerdemo;
 
 public class Taxcalcation {
 	
-	public void calucatateTax(Person p)
+	public   void calucatateTax(Person p)
 	{
 		if(p.getIncome()<=20000) {
 			p.setTax(0);

@@ -1,9 +1,9 @@
 package com.tnsif.polymorphism;
 // demo for method overloading
 
-public class Vehicle {
+public final class Vehicle {
 	
-	void move() {
+	final void move() {
 		System.out.println("vehicles moves");
 	}
 
